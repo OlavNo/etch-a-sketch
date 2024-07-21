@@ -17,7 +17,7 @@ sizeButtons.forEach((button) => {
 button.addEventListener("click", () => {
     deleteGrid();
     createGrid(button.id);
-    addEffects("blue");
+    addEffects();
 });
 });  
 
